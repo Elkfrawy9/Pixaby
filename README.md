@@ -1,45 +1,28 @@
-usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
-           <command> [<args>]
+# Pixaby
+a simple application using pixabay api and based on modern Android tech-stacks especially focus on images with glide and videos with ExoPlayer(media3)
+offers you to search and download high-quality images and videos 
 
-These are common Git commands used in various situations:
+# Tech stack & Open-source libraries
+- Kotlin
+- Coroutines
+- Hilt for dependency injection.
+- Retrofit & OkHttp3
+- Glide
+- ExoPlayer
+- Paging3
+- Clean Architecture & Repository Pattern
 
-start a working area (see also: git help tutorial)
-   clone     Clone a repository into a new directory
-   init      Create an empty Git repository or reinitialize an existing one
+# App Architecture
 
-work on the current change (see also: git help everyday)
-   add       Add file contents to the index
-   mv        Move or rename a file, a directory, or a symlink
-   restore   Restore working tree files
-   rm        Remove files from the working tree and from the index
+![Screenshot_20230904_080257](https://github.com/Elkfrawy9/Pixaby/assets/60475172/69d49a5e-186a-4a4f-a0e6-1e70f193106d)
 
-examine the history and state (see also: git help revisions)
-   bisect    Use binary search to find the commit that introduced a bug
-   diff      Show changes between commits, commit and working tree, etc
-   grep      Print lines matching a pattern
-   log       Show commit logs
-   show      Show various types of objects
-   status    Show the working tree status
+# Screenshots
+<img src="https://github.com/Elkfrawy9/Pixaby/assets/60475172/bfd1d794-4362-4b13-80ce-857571abbf6f" width="250" height="450">
+<img src="https://github.com/Elkfrawy9/Pixaby/assets/60475172/2380eb93-3b96-466e-9dc3-83165bf6cf22" width="250" height="450">
+<img src="https://github.com/Elkfrawy9/Pixaby/assets/60475172/20d324f9-b4af-463a-9eaf-e6d5ed71f6ce" width="250" height="450">
+<img src="https://github.com/Elkfrawy9/Pixaby/assets/60475172/8d2e220c-c0c1-4c3b-ba2f-351a055282f2" width="250" height="450">
 
-grow, mark and tweak your common history
-   branch    List, create, or delete branches
-   commit    Record changes to the repository
-   merge     Join two or more development histories together
-   rebase    Reapply commits on top of another base tip
-   reset     Reset current HEAD to the specified state
-   switch    Switch branches
-   tag       Create, list, delete or verify a tag object signed with GPG
 
-collaborate (see also: git help workflows)
-   fetch     Download objects and refs from another repository
-   pull      Fetch from and integrate with another repository or a local branch
-   push      Update remote refs along with associated objects
 
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
+
+
